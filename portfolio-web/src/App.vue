@@ -6,6 +6,14 @@
     <div class="title">
           <h1 class="h1 is-3">Rohith Komati</h1>
           <h1 class="smalls">Sophomore/Junior at University of Illinois - Chicago<br>Former Software Engineer Intern at Siemens</h1>
+          <div class="button_group">
+            <a href="https://github.com/twonkista" target="_blank">
+              <img src="@/assets/github_logo.jpg" />
+            </a>
+            <a href="https://www.linkedin.com/in/rohith-k-b24104284" target="_blank">
+              <img src="@/assets/Linkedin_logo_initials.png"/>
+            </a>
+          </div>
     </div>
   </Transition>
 </template>
@@ -46,5 +54,11 @@ body {
 .v-leave-to {
   opacity: 0;
   transform: translateY(100px);
+}
+img {
+  float: left;
+  width:  60px;
+  height: 60px;
+  object-fit: cover;
 }
 </style>
