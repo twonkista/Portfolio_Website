@@ -14,7 +14,7 @@ import ButtonGroup from './components/ButtonGroup.vue'
 <style>
 
 body {
-  background: url("@/assets/nyc.jpg") no-repeat center center fixed;
+  background: url("../assets/nyc.jpg") no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
