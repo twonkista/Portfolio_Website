@@ -20,7 +20,7 @@ import { ref } from 'vue'
     <header class = "divider">Skills Section: </header>
     <header>Languages: </header>
     <div class="imagegroup">
-      <img src="@/assets/c_Logo.png" width="60" height="60">
+      <img src="@/assets/c_logo.png" width="60" height="60">
       <img src="@/assets/c++_logo.png" width="60" height="60">
       <img src="@/assets/java-logo-1.png" width="60" height="60" class="java">
       <img src="@/assets/javaScript-logo.png" width="60" height="60">
