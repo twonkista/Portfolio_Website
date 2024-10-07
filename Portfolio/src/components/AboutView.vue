@@ -15,7 +15,7 @@ import { ref } from 'vue'
     <br>
     <p>
       Hi my name is Rohith Komati and I am a student at the University of Illinois Chicago. I became interested in programming back in 9th grade where I took my first intro to python class. I ended up having a 70 question final in which my ADD ass got a C- which resulted in a B+ overall (I had an A the entire semester).
-      I then I took a hiatus for 1 year and got into electronics through a class in high school. I ended up liking the class alot and the people there were gas so I ended up wanting to pursue electrical engineering. I took another chance at cs and I took APCSA where I locked in so hard that I got an A and a 4 on the test. I then pivoted to computer engineering and a couple of rejections later I ended up at UIC.
+      Because of that humiliating defeat, I then took a 1 year hiatus and got into electronics through a class in high school. I ended up liking the class alot and the people there were gas so I ended up wanting to pursue electrical engineering. I took another chance at CS and I took APCSA where I locked in so hard that I got an A and a 4 on the test. I then pivoted to computer engineering and a couple of rejections later I ended up at UIC.
     </p>
     <header class = "divider">Skills Section: </header>
     <header>Languages: </header>
