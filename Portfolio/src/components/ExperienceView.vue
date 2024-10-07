@@ -13,7 +13,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
         <div class="name">
           Undergraduate Teaching Assistant
         </div>
-        <img src="@/assets/University_of_Illinois_at_Chicago_circle_logo.svg.png" width="80" height="80">
+        <img src="@/assets/university_of_Illinois_at_Chicago_circle_logo.svg.png" width="80" height="80">
         <div class = "date">
           <p> August 2024 - Present</p>
         </div>
@@ -29,7 +29,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
         <div class="name">
           Software Engineering Intern
         </div>
-        <img src="@/assets/Siemens-logo.svg.png" width="150" height="60">
+        <img src="@/assets/siemens-logo.svg.png" width="150" height="60">
         <div class = "date">
           <p>May 2024 - August 2024</p>
         </div>
