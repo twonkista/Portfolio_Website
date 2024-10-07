@@ -4,12 +4,9 @@ import { ref } from 'vue'
 
 <template>
   <div class="greetings">
-    Previous Experiences:
+    C++
   </div>
 </template>
 
 <style scoped>
-.greetings {
-  float: left
-}
 </style>

@@ -5,12 +5,6 @@ import ButtonGroup from './components/ButtonGroup.vue'
 
 <template>
   <header>
-    <div class = "image">
-      <img alt="Me" class="logo" src="./assets/me.jpg" width="125" height="125" />
-    </div>
-    <div class="wrapper">
-      <HelloWorld msg="Rohith Komati" />
-    </div>
     <ButtonGroup />
   </header>
 
@@ -19,15 +13,16 @@ import ButtonGroup from './components/ButtonGroup.vue'
 </template>
 
 <style>
+
 body {
-  position: absolute;
   background: url("@/assets/nyc.jpg") no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   vertical-align: center;
-  margin: 5%;
+  margin: 0%;
+  text-align: center;
 }
 header {
   font-size: 25px;
