@@ -43,7 +43,7 @@ defineProps({
                 <img src="../assets/wca.png" width="40" height="40"/>
             </a>
             <a href="https://github.com/twonkista" target="_blank">
-                <img src="../assets/git2hub.png" width="40" height="40"/>
+                <img src="../assets/github3.png" width="70" height="40"/>
             </a>
             <a href="https://www.linkedin.com/in/rohith-k-b24104284" target="_blank">
                 <img src="../assets/lined2din.png" width="40" height="40"/>
