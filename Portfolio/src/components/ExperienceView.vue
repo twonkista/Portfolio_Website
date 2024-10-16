@@ -7,10 +7,12 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
 
 <template>
   <div class="greetings">
-    Previous Experiences:
+    <header>
+      Previous Experiences:
+    </header>
     <div class = "project_container">
       <div class = "title_container">
-        <div class="name">
+        <div class="title">
           Undergraduate Teaching Assistant
         </div>
         <img src="@/assets/university_of_Illinois_at_Chicago_circle_logo.svg.png" width="80" height="80">
@@ -18,7 +20,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
           <p> August 2024 - Present</p>
         </div>
       </div>
-      <div class ="description">
+      <div class ="description" style="width: 60%;">
         <li v-for="(info_1, index) in info_1">
           {{ info_1.message }}
         </li>
@@ -26,15 +28,15 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
     </div>
     <div class = "project_container">
       <div class = "title_container">
-        <div class="name">
+        <div class="title">
           Software Engineering Intern
         </div>
-        <img src="../assets/siemens-logo.svg.png" width="150" height="60">
+        <img src="@/assets/siemens-logo.svg.png" width="150" height="60">
         <div class = "date">
-          <p>May 2024 - August 2024</p>
+          <p> May 2024 - August 2024</p>
         </div>
       </div>
-      <div class ="description">
+      <div class ="description" style="width: 60%;">
         <li v-for="(item, index) in items">
           {{ item.message }}
         </li>
@@ -42,15 +44,15 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
     </div>
     <div class = "project_container">
       <div class = "title_container">
-        <div class="name">
+        <div class="title">
           Code Instructor
         </div>
-        <img src="../assets/images (7).png" width="80" height="80">
+        <img src="@/assets/images (7).png" width="80" height="80">
         <div class = "date">
-          <p> May 2022 - Jan 2023</p>
+          <p> May 2024 - August 2024</p>
         </div>
       </div>
-      <div class ="description">
+      <div class ="description" style="width: 60%;">
         <li v-for="(info, index) in info_2">
           {{ info.message }}
         </li>
@@ -61,26 +63,35 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
 
 <style scoped>
 .greetings {
-  float: left;
-  margin: 4%;
+  display: block;
+  text-align: center;
 }
 .project_container {
   display: inline-flex;
-  background-color: rgb(130, 128, 128);
-  border: solid 0.1em;
-  border-color: black;
-  border-radius: 10px;
-  margin: 1%;
+  background-color: whitesmoke;
+  margin: 5%;
   padding: 5%;
+  box-shadow:  0.3em 0.3em 1em rgb(200 0 0 / 60%);
 }
 .title_container {
   display: block;
 }
-.name {
-  float: left;
-  display: block;
+.title {
+  padding: 7%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .date {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description {
+  float: left;
+  margin: 4%;
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  padding-top: 2%;
+  font-size: 50px;
 }
 </style>

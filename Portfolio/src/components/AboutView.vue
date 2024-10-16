@@ -1,62 +1,172 @@
 <script setup>
 import { ref } from 'vue'
+import { FaBeer } from "react-icons/fa";
 </script>
 
 <template>
-  <div class = "image">
-      <img alt="Me" class="logo" src="../assets/me.jpg" width="125" height="125"/>
-    </div>
-    <a href="https://github.com/twonkista" target="_blank">
-      <img src="../assets/github_logo.jpg" width="60" height="60"/>
-    </a>
-    <a href="https://www.linkedin.com/in/rohith-k-b24104284" target="_blank">
-      <img src="../assets/linkedin.png" width="60" height="60"/>
-    </a>
-    <br>
-    <p>
-      Hi my name is Rohith Komati and I am a student at the University of Illinois Chicago. I became interested in programming back in 9th grade where I took my first intro to python class. I ended up having a 70 question final in which my ADD ass got a C- which resulted in a B+ overall (I had an A the entire semester).
-      Because of that humiliating defeat, I then took a 1 year hiatus and got into electronics through a class in high school. I ended up liking the class alot and the people there were gas so I ended up wanting to pursue electrical engineering. I took another chance at CS and I took APCSA where I locked in so hard that I got an A and a 4 on the test. I then pivoted to computer engineering and a couple of rejections later I ended up at UIC.
+
+  <div class="skillbio">
+      <p>
+        Hi my name is Rohith Komati and I am a student at the  <span style="color: #ff0000; font-weight: bold">University of Illinois Chicago</span> pursuing a bachelor's in  <span style="color: #ff0000; font-weight: bold">Computer Engineering</span>.
+      </p>
+  </div>
+  <div class="biotext">
+    <p style="text-align: center; margin:0 auto; padding: 2%">
+      I have experience with fullstack web development and my current tech stack is Vuejs, Flask, Python, and Postgres (Or at least thats what my last project was in) however, I am more interested in embedded hardware engineering hoping to pursue a career in the semiconductor industry (+ Taiwan is cool). I'd like to learn more hardware stuff so I started learning the esp32 framework and relearning C (one of the languages of all time) but I am still a hobbyist in mobile app development and currently working on a project with expo. Other hobbies are video editing, speedcubing, and skateboarding.
     </p>
-    <header class = "divider">Skills Section: </header>
+  </div>
+<div class="skillsandstuff">
+  <div class="skills">
+  <div class="listView">
+    <div class="languages">
     <header>Languages: </header>
-    <div class="imagegroup">
-      <img src="../assets/c_logo.png" width="60" height="60">
-      <img src="../assets/c++_logo.png" width="60" height="60">
-      <img src="../assets/java-logo-1.png" width="60" height="60" class="java">
-      <img src="../assets/javaScript-logo.png" width="60" height="60">
-      <img src="../assets/typescript_logo_2020.svg.png" width="60" height="60">
-      <img src="../assets/images (1).jpeg" width="60" height="60">
-      <img src="../assets/postgresql_elephant.svg.png" width="60" height="60">
-      <img src="../assets/sql_data_base_with_logo.png" width="120" height="60" class="java">
-    </div>
+  </div>
+    <ul class="hlist">
+      <li>C</li> 
+      <li>C++</li> 
+      <li>Java</li> 
+      <li>JavaScript</li> 
+      <li>TypeScript</li> 
+      <li>Python</li>
+    </ul>
+  </div>
+  <br>
+  <div class="listView">
+    <div class="languages">
     <header>Frameworks: </header>
-    <div class="imagegroup">
-      <img src="../assets/images (1).png" width="60" height="60">
-      <img src="../assets/images (3).png" width="60" height="60" class="java">
-      <img src="../assets/pyrorch_logo_black.svg.png" width="200" height="60" class="java">
-      <img src="../assets/images (2).png" width="60" height="60">
-      <img src="../assets/flask.png" width="60" height="60" class="java">
-    </div>
+  </div>
+    <ul class="hlist">
+      <li>React</li> 
+      <li>Vuejs</li> 
+      <li>Pytorch</li> 
+      <li>Arduino</li> 
+      <li>Flask</li> 
+      <li>Express</li>
+    </ul>
+  </div>
+  <br>
+  <div class="listView">
+    <div class="languages">
     <header>Libraries/Tools: </header>
-    <div class="imagegroup">
-      <img src="../assets/images (4).png" width="100" height="60">
-      <img src="../assets/images (5).png" width="160" height="60">
-      <img src="../assets/images (6).png" width="60" height="60">
-      <img src="../assets/images (2).png" width="60" height="60">
-      <img src="../assets/97_docker_logo_logos-512.png" width="60" height="60" class="java">
-      <img src="../assets/vmware_cloud_logo.jpg" width="80" height="60" class="java">
-      <img src="../assets/tux.svg.png" width="60" height="60">
-    </div>
+  </div>
+    <ul class="hlist">
+      <li>Numpy</li> 
+      <li>Pandas</li> 
+      <li>Git</li> 
+      <li>Docker</li> 
+      <li>VS Code</li> 
+      <li>Linux</li> 
+      <li>VMWare</li> 
+      <li>Visual Studio</li>
+      <li>Arduino IDE</li>
+    </ul>
+  </div>
+  </div>
+</div>
+</template>
+
+<style scoped>
+.skillbio{
+  display: inline-block;
+  padding: 15%;
+}
+.skills {
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.languages {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 20%;
+}
+.hlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%; margin: 0;
+}
+.hlist li { list-style-type: none; }
+
+.biotext {
+  display: inline-block;
+  text-align: center;
+  left:50%
+}
+
+.biotext p{
+  width: 50%;
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hlist li{
+  margin: 5px; padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  color: #fff; background: #ff3636;
+}
+.skillsandstuff{
+  background-color: rgb(255, 255, 255);
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 3%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1em;
+  box-shadow: 10px 5px 5px;
+}
+.listView{
+  background-color: #ffa5a5;
+  padding-left: 5%;
+  border-radius: 1em;
+}
+</style>
+
+<!--
+<div style="width: 225px; float: left;"> 
+  <img alt="Me" class="logo" src="../assets/me.jpg" width="225" height="225"/> 
+</div>
+ <div style="margin-left: 225;">
+  <p>
+    Hi my name is Rohith Komati and I am a student at the  <span style="color: #ff0000; font-weight: bold">University of Illinois Chicago</span> pursuing a bachelor's in  <span style="color: #ff0000; font-weight: bold">Computer Engineering</span>.
+  </p>
+ </div>
+</div>
+<div class = "skills">
+<header class = "divider">Skills Section: </header>
+<header>Languages: </header>
+<header>Frameworks: </header>
+<header>Libraries/Tools: </header>
+</div>
 </template>
 
 <style scoped>
 body{
-  align-items: center;
+margin: 0%;
+}
+.logo {
+margin: 0%;
+}
+.skillbio {
+display: block;
+margin: 2%;
+}
+p {
+margin: 2%;
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .java {
-  background-color: white;
+background-color: white;
 }
 .divider {
-  background-color: rgb(22, 57, 99);
+display: block;
 }
-</style>
+-->
