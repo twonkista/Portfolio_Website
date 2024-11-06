@@ -97,7 +97,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
         <p>Repo not found :/</p>
       </div>
       <div class ="description" style="width: 60%;">
-        This is an embedded systems project where it mimicks a car security system. I used magnetic reed switches to read if the door has been opened or not and I used a breadboard with LEDs to flash the light if it was unwantedly opened. If it was not intentionally opened, it would sound a loud alarm and it begins to track the location of the cars whereabouts. The security was programmed using an arduino and a NEO6M GPS module for tracking the car in C++.
+        This is an embedded systems project where it mimics a car security system. I used magnetic reed switches to read if the door has been opened or not and I used a breadboard with LEDs to flash the light if it was unwantedly opened. If it was not intentionally opened, it would sound a loud alarm and it begins to track the location of the cars whereabouts. The security was programmed using an arduino and a NEO6M GPS module for tracking the car in C++.
       </div>
     </div>
     <div class = "project_container">
