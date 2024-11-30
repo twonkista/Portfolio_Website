@@ -7,7 +7,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
 
 <template>
   <div class="greetings">
-    <header>
+    <header style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
       Previous Experiences:
     </header>
     <div class = "project_container">
