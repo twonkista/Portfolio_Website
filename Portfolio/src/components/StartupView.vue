@@ -12,23 +12,26 @@
   font-weight: bold;
   text-align: center;
 }
+
+/*
 .name header {
   overflow: hidden;
   border-right: .15em solid red;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0; 
+  /*
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end;
-}
-
+    */
+/*
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
+
 @keyframes blink-caret {
   from, to { border-color: black }
   50% { border-color: red; }
@@ -44,6 +47,7 @@
   animation: fadeIn 1s ease-in forwards;
   animation-delay: 2.75s;
 }
+  */
 
 p {
   font-size: 0.6em;

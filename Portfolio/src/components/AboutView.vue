@@ -10,11 +10,6 @@ import { FaBeer } from "react-icons/fa";
         Hi my name is Rohith Komati and I am a student at the  <span style="color: #ff0000; font-weight: bold">University of Illinois Chicago</span> pursuing a bachelor's in  <span style="color: #ff0000; font-weight: bold">Computer Engineering</span>.
       </p>
   </div>
-  <div class="biotext">
-    <p style="text-align: center; margin:0 auto; padding: 2%">
-      Just a lonely loner who frees his mind at night. I wanna pursue embedded software engineering/robotcs(if the job is still there when i graduate).
-    </p>
-  </div>
 <div class="skillsandstuff">
   <div class="skills">
   <div class="listView">
@@ -63,6 +58,11 @@ import { FaBeer } from "react-icons/fa";
   </div>
   </div>
 </div>
+<div class="biotext">
+    <p style="width: 100%; position: absolute; padding-bottom: 1%;">
+      Just a lonely loner who frees his mind at night. I wanna pursue embedded software engineering/robotcs(if the job is still there when i graduate).
+    </p>
+  </div>
 </template>
 
 <style scoped>
