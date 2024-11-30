@@ -12,7 +12,7 @@ import { FaBeer } from "react-icons/fa";
   </div>
   <div class="biotext">
     <p style="text-align: center; margin:0 auto; padding: 2%">
-      I have experience with fullstack web development and my current tech stack is Vuejs, Flask, Python, and Postgres (Or at least thats what my last project was in) however, I am more interested in embedded hardware engineering hoping to pursue a career in the semiconductor industry (+ Taiwan is cool). I'd like to learn more hardware stuff so I started learning the esp32 framework and relearning C (one of the languages of all time) but I am still a hobbyist in mobile app development and currently working on a project with expo. Other hobbies are video editing, speedcubing, and skateboarding.
+      Just a lonely loner who frees his mind at night. I wanna pursue embedded software engineering/robotcs(if the job is still there when i graduate).
     </p>
   </div>
 <div class="skillsandstuff">

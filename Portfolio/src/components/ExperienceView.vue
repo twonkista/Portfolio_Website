@@ -49,7 +49,7 @@ const info_2 = ref([{ message: 'Lead a classroom of children aged 8-12 to teach 
         </div>
         <img src="@/assets/images (7).png" width="80" height="80">
         <div class = "date">
-          <p> May 2024 - August 2024</p>
+          <p> May 2022 - Jan 2023</p>
         </div>
       </div>
       <div class ="description" style="width: 60%;">
