@@ -2,10 +2,10 @@
     <div class="name">
         <header>Rohith <span style="color: #ff0000">Komati</span></header>
       <p>Computer Engineering Student</p>
-    </div> 
-    <small>
+      <small>
         <a href="https://drive.google.com/file/d/1rjXl3FMsWpqsy1-doEBv4IxZp219OUn-/view?usp=sharing">Resume</a>
-    </small>
+      </small>
+    </div> 
 </template>
 <style>
 .name {
@@ -14,6 +14,10 @@
   font-size: 4.2em;
   font-weight: bold;
   text-align: center;
+}
+
+.small {
+  font-size: 2.1em;
 }
 
 /*
