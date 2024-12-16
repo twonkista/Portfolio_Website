@@ -2,9 +2,9 @@
     <div class="name">
         <header>Rohith <span style="color: #ff0000">Komati</span></header>
       <p>Computer Engineering Student</p>
-      <small>
+      <p>
         <a href="https://drive.google.com/file/d/1rjXl3FMsWpqsy1-doEBv4IxZp219OUn-/view?usp=sharing">Resume</a>
-      </small>
+      </p>
     </div> 
 </template>
 <style>
